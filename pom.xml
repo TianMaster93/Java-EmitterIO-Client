@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>cl.cbasoft.emitter.io</groupId>
-  <artifactId>Emitter-Client</artifactId>
+  <groupId>cl.cbasoft</groupId>
+  <artifactId>emitter-client</artifactId>
   <version>1.0</version>
   
   <properties>
@@ -22,4 +22,12 @@
 	    <version>1.13.1</version>
 	</dependency>
   </dependencies>
+  
+  <distributionManagement>
+  	<repository>
+	    <id>github</id>
+	    <name>GitHub CbaSoft93 Apache Maven Packages</name>
+	    <url>https://maven.pkg.github.com/CbaSoft93/Java-EmitterIO-Client/</url>
+  	</repository>
+  </distributionManagement>
 </project>
